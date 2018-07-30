@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="processor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5553333333fs"></ZoomStartTime>
+      <ZoomEndTime time="6209333334fs"></ZoomEndTime>
+      <Cursor1Time time="6100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="110" />
+   <wvobject fp_name="/processor/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/show_add" type="array">
+      <obj_property name="ElementShortName">show_add[3:0]</obj_property>
+      <obj_property name="ObjectShortName">show_add[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/show_data" type="array">
+      <obj_property name="ElementShortName">show_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">show_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/switches" type="array">
+      <obj_property name="ElementShortName">switches[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switches[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Anode" type="array">
+      <obj_property name="ElementShortName">Anode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Anode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Cathode" type="array">
+      <obj_property name="ElementShortName">Cathode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Cathode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/flag" type="array">
+      <obj_property name="ElementShortName">flag[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flag[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/I_or_D" type="logic">
+      <obj_property name="ElementShortName">I_or_D</obj_property>
+      <obj_property name="ObjectShortName">I_or_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/PCinc_OR_b" type="logic">
+      <obj_property name="ElementShortName">PCinc_OR_b</obj_property>
+      <obj_property name="ObjectShortName">PCinc_OR_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Rn_OR_Rd" type="logic">
+      <obj_property name="ElementShortName">Rn_OR_Rd</obj_property>
+      <obj_property name="ObjectShortName">Rn_OR_Rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Rs_OR_Rm" type="logic">
+      <obj_property name="ElementShortName">Rs_OR_Rm</obj_property>
+      <obj_property name="ObjectShortName">Rs_OR_Rm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/sft_OR_mul" type="logic">
+      <obj_property name="ElementShortName">sft_OR_mul</obj_property>
+      <obj_property name="ObjectShortName">sft_OR_mul</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Rd_OR_Rn_OR_lr" type="array">
+      <obj_property name="ElementShortName">Rd_OR_Rn_OR_lr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_OR_Rn_OR_lr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/reg_wr_enbl" type="logic">
+      <obj_property name="ElementShortName">reg_wr_enbl</obj_property>
+      <obj_property name="ObjectShortName">reg_wr_enbl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/IR_enb" type="logic">
+      <obj_property name="ElementShortName">IR_enb</obj_property>
+      <obj_property name="ObjectShortName">IR_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/DR_enb" type="logic">
+      <obj_property name="ElementShortName">DR_enb</obj_property>
+      <obj_property name="ObjectShortName">DR_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/A_enb" type="logic">
+      <obj_property name="ElementShortName">A_enb</obj_property>
+      <obj_property name="ObjectShortName">A_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/B_enb" type="logic">
+      <obj_property name="ElementShortName">B_enb</obj_property>
+      <obj_property name="ObjectShortName">B_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Rd_enb" type="logic">
+      <obj_property name="ElementShortName">Rd_enb</obj_property>
+      <obj_property name="ObjectShortName">Rd_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/shiftamt_enb" type="logic">
+      <obj_property name="ElementShortName">shiftamt_enb</obj_property>
+      <obj_property name="ObjectShortName">shiftamt_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/sft_or_mul_res_enb" type="logic">
+      <obj_property name="ElementShortName">sft_or_mul_res_enb</obj_property>
+      <obj_property name="ObjectShortName">sft_or_mul_res_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/res_enb" type="logic">
+      <obj_property name="ElementShortName">res_enb</obj_property>
+      <obj_property name="ObjectShortName">res_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/PC_enb" type="logic">
+      <obj_property name="ElementShortName">PC_enb</obj_property>
+      <obj_property name="ObjectShortName">PC_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Imm" type="logic">
+      <obj_property name="ElementShortName">Imm</obj_property>
+      <obj_property name="ObjectShortName">Imm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/predicate" type="logic">
+      <obj_property name="ElementShortName">predicate</obj_property>
+      <obj_property name="ObjectShortName">predicate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Reg_wrtselect" type="array">
+      <obj_property name="ElementShortName">Reg_wrtselect[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_wrtselect[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/instr" type="array">
+      <obj_property name="ElementShortName">instr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/alu_sel" type="array">
+      <obj_property name="ElementShortName">alu_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Memory_master_enable" type="logic">
+      <obj_property name="ElementShortName">Memory_master_enable</obj_property>
+      <obj_property name="ObjectShortName">Memory_master_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Alu_or_B" type="logic">
+      <obj_property name="ElementShortName">Alu_or_B</obj_property>
+      <obj_property name="ObjectShortName">Alu_or_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Res_or_A" type="logic">
+      <obj_property name="ElementShortName">Res_or_A</obj_property>
+      <obj_property name="ObjectShortName">Res_or_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/Invert" type="logic">
+      <obj_property name="ElementShortName">Invert</obj_property>
+      <obj_property name="ObjectShortName">Invert</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/sftamt_reg_or_imm" type="logic">
+      <obj_property name="ElementShortName">sftamt_reg_or_imm</obj_property>
+      <obj_property name="ObjectShortName">sftamt_reg_or_imm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/show" type="array">
+      <obj_property name="ElementShortName">show[31:0]</obj_property>
+      <obj_property name="ObjectShortName">show[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/not_implemented" type="logic">
+      <obj_property name="ElementShortName">not_implemented</obj_property>
+      <obj_property name="ObjectShortName">not_implemented</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ld_or_str" type="logic">
+      <obj_property name="ElementShortName">ld_or_str</obj_property>
+      <obj_property name="ObjectShortName">ld_or_str</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/inst_type" type="array">
+      <obj_property name="ElementShortName">inst_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/immidiate" type="logic">
+      <obj_property name="ElementShortName">immidiate</obj_property>
+      <obj_property name="ObjectShortName">immidiate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/ldr_or_str" type="logic">
+      <obj_property name="ElementShortName">ldr_or_str</obj_property>
+      <obj_property name="ObjectShortName">ldr_or_str</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/MUL" type="logic">
+      <obj_property name="ElementShortName">MUL</obj_property>
+      <obj_property name="ObjectShortName">MUL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/hwDT" type="logic">
+      <obj_property name="ElementShortName">hwDT</obj_property>
+      <obj_property name="ObjectShortName">hwDT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/pre_or_post" type="logic">
+      <obj_property name="ElementShortName">pre_or_post</obj_property>
+      <obj_property name="ObjectShortName">pre_or_post</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/writeback" type="logic">
+      <obj_property name="ElementShortName">writeback</obj_property>
+      <obj_property name="ObjectShortName">writeback</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ctrl/FSM/wt" type="array">
+      <obj_property name="ElementShortName">wt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/read_add1" type="array">
+      <obj_property name="ElementShortName">read_add1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_add1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/read_add2" type="array">
+      <obj_property name="ElementShortName">read_add2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_add2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/write_add" type="array">
+      <obj_property name="ElementShortName">write_add[3:0]</obj_property>
+      <obj_property name="ObjectShortName">write_add[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/show_add" type="array">
+      <obj_property name="ElementShortName">show_add[3:0]</obj_property>
+      <obj_property name="ObjectShortName">show_add[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/show_data" type="array">
+      <obj_property name="ElementShortName">show_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">show_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/write_enable" type="logic">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/reg" type="array">
+      <obj_property name="ElementShortName">reg[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/indexr1" type="other">
+      <obj_property name="ElementShortName">indexr1</obj_property>
+      <obj_property name="ObjectShortName">indexr1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/indexr2" type="other">
+      <obj_property name="ElementShortName">indexr2</obj_property>
+      <obj_property name="ObjectShortName">indexr2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/indexw" type="other">
+      <obj_property name="ElementShortName">indexw</obj_property>
+      <obj_property name="ObjectShortName">indexw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Rgstr/indexshow" type="other">
+      <obj_property name="ElementShortName">indexshow</obj_property>
+      <obj_property name="ObjectShortName">indexshow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/ld_or_str" type="logic">
+      <obj_property name="ElementShortName">ld_or_str</obj_property>
+      <obj_property name="ObjectShortName">ld_or_str</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/add_in" type="array">
+      <obj_property name="ElementShortName">add_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">add_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/size_in" type="array">
+      <obj_property name="ElementShortName">size_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">size_in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/DR_out" type="array">
+      <obj_property name="ElementShortName">DR_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DR_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HRESET" type="logic">
+      <obj_property name="ElementShortName">HRESET</obj_property>
+      <obj_property name="ObjectShortName">HRESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HCLK" type="logic">
+      <obj_property name="ElementShortName">HCLK</obj_property>
+      <obj_property name="ObjectShortName">HCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HRDATA" type="array">
+      <obj_property name="ElementShortName">HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HREADY" type="logic">
+      <obj_property name="ElementShortName">HREADY</obj_property>
+      <obj_property name="ObjectShortName">HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HADDR" type="array">
+      <obj_property name="ElementShortName">HADDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HWRITE" type="logic">
+      <obj_property name="ElementShortName">HWRITE</obj_property>
+      <obj_property name="ObjectShortName">HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HSIZE" type="array">
+      <obj_property name="ElementShortName">HSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HTRANS" type="array">
+      <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/HWDATA" type="array">
+      <obj_property name="ElementShortName">HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Mastr/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/addr_out" type="array">
+      <obj_property name="ElementShortName">addr_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/mem_out" type="array">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/mem_in" type="array">
+      <obj_property name="ElementShortName">mem_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/hselx" type="logic">
+      <obj_property name="ElementShortName">hselx</obj_property>
+      <obj_property name="ObjectShortName">hselx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/wrt_enb" type="array">
+      <obj_property name="ElementShortName">wrt_enb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wrt_enb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HRESET" type="logic">
+      <obj_property name="ElementShortName">HRESET</obj_property>
+      <obj_property name="ObjectShortName">HRESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HCLK" type="logic">
+      <obj_property name="ElementShortName">HCLK</obj_property>
+      <obj_property name="ObjectShortName">HCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HWDATA" type="array">
+      <obj_property name="ElementShortName">HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HADDR" type="array">
+      <obj_property name="ElementShortName">HADDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HWRITE" type="logic">
+      <obj_property name="ElementShortName">HWRITE</obj_property>
+      <obj_property name="ObjectShortName">HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HSIZE" type="array">
+      <obj_property name="ElementShortName">HSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HTRANS" type="array">
+      <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HREADYOUT" type="logic">
+      <obj_property name="ElementShortName">HREADYOUT</obj_property>
+      <obj_property name="ObjectShortName">HREADYOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/HRDATA" type="array">
+      <obj_property name="ElementShortName">HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/Slave_memory/W" type="logic">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/address" type="array">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/memory_write_enable" type="array">
+      <obj_property name="ElementShortName">memory_write_enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_write_enable[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:255][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/add" type="other">
+      <obj_property name="ElementShortName">add</obj_property>
+      <obj_property name="ObjectShortName">add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/dp/Data_mem/DT_mem/rd_enb" type="logic">
+      <obj_property name="ElementShortName">rd_enb</obj_property>
+      <obj_property name="ObjectShortName">rd_enb</obj_property>
+   </wvobject>
+</wave_config>
